@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/18b8ecb5e9.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="/css/style.css">
+	<title>WeatherApp</title>
+</head>
+
+<body>
+
+
+	<div class="wrapper">
+		<div class="search-wrapper">
+			<form id="search-form">
+				<input required type="text" value="" placeholder="Город">
+				<button type="submit">Найти</button>
+			</form>
+		</div>
+
+		<header class="header">
+
+
+
+
+			<div class="header__wrap">
+				<div class="header__city"></div>
+				<div class="header__date"></div>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="info">
+				<div class="info__content">
+					<div class="info__icon">
+					</div>
+					<div class="info__wrap-temp">
+						<div class="info__temp"></div>
+						<div class="info__status"></div>
+					</div>
+				</div>
+				<ul class="info__list info-list">
+
+				</ul>
+
+			</div>
+
+
+		</main>
+		<footer class="footer">
+			<div class="forecast">
+				<div class="forecast__switcher switcher">
+					<button class="swither__today active">Сегодня</button>
+					<button class="swither__tomorrow">Завтра</button>
+					<button class="swither__weekly">На неделю</button>
+				</div>
+				<div class="forecast__wrapper">
+
+
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="/js/script.js"></script>
+</body>
+
+</html>
